@@ -1,0 +1,49 @@
+.quote {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.322);
+}
+.quote-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.quote-text > h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.quote-text > p {
+  color: #fff;
+}
+
+@media screen and (max-width: 1140px) {
+  .quote {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .quote-text > h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .quote-text > h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .quote {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,93 @@
+.contact-page {
+  margin-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.contact-container {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+.contact-box {
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  display: flex;
+}
+.contact-box > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 80px;
+}
+.contact-box > div > p {
+  font-size: 20px;
+  color: #fff;
+}
+.contact-box > div > p > span {
+  color: coral;
+}
+.contact-box > div > h1 {
+  color: #fff;
+  font-family: "playfair display";
+  font-size: 50px;
+  text-align: left;
+  margin-top: -5px;
+}
+
+.contact-content {
+  display: flex;
+  column-gap: 40px;
+  margin-top: 60px;
+}
+.map-container {
+  width: 600px;
+  height: 550px;
+  background-color: transparent;
+  border: 2px solid #111111;
+  border-radius: 20px;
+}
+.map-container > iframe {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container > h1 {
+  text-align: left;
+}
+.input-field form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.input-field input {
+  height: 40px;
+  border-style: none;
+  background-color: #e2e2e2;
+  padding-left: 20px;
+}
+.input-field textarea {
+  border-style: none;
+  background-color: #e2e2e2;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.input-field button {
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #fea12a;
+  color: #fff;
+}
